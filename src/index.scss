@@ -4,9 +4,12 @@
   padding: 0;
   box-sizing: border-box;
   /* outline: 1px solid red; */
+  // background-color:#E8EDF2!important
+
 }
 html{
   scroll-behavior: smooth;
+
 }
 body {
   margin: 0;
@@ -17,15 +20,20 @@ body {
   -moz-osx-font-smoothing: grayscale;
   overscroll-behavior: none;
 }
-
+// rc-menu-uuid-82322-2-pos-admin-popup
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-.ant-layout-header {
-  padding: unset;
-  line-height: unset;
-}
+// .ant-menu-vertical.ant-menu-sub > .ant-menu-item {
+//   display: inline;
+// }
+// .ant-menu-submenu-popup {
+//   top: 0px !important;
+//   right: 5% !important;
+//   left: auto !important;
+//   width: 400px;
+// }
 .ant-menu {
   height: 100%;
   overflow-y: scroll;
@@ -41,18 +49,19 @@ code {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding:unset !important
 }
 .ant-menu-item-only-child {
   height: 40px !important;
   padding: unset !important;
 }
 
-.ant-menu-item-selected {
-  padding-left: unset;
-}
-.ant-menu-sub {
-  overflow: hidden;
-}
+// .ant-menu-item-selected {
+//   padding-left: unset!important;
+// }
+// .ant-menu-sub {
+//   overflow: hidden;
+// }
 .ant-menu-inline-collapsed >.ant-menu-item,
 .ant-menu-inline-collapsed >.ant-menu-submenu>.ant-menu-submenu-title{
   padding-inline:unset;
